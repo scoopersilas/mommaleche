@@ -1,3 +1,10 @@
 $navbar-height: 50px;
 $jumbotron-bg:   #f1c40f;
 @import 'bootstrap';
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
