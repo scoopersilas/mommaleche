@@ -1,16 +1,14 @@
 Mommaleche::Application.routes.draw do
-
-  
-  get "pages/home"
-  get "pages/about"
-  get "pages/brand"
-  get "pages/contact"
-  get "pages/cs"
-  get "pages/events"
-  get "pages/news"
-  get "pages/partners"
-  get "pages/services"
-  get "pages/eventdesign"
+root :to => 'pages#home'
+  get 'about' => 'pages#about'
+  get 'partners' => 'pages#partners'
+  get 'services' => 'pages#services'
+  get 'contact' => 'pages#contact'
+  get 'events' => 'pages#events'
+  get 'news' => 'pages#news'
+  get 'cs' => 'pages#cs'
+  get 'eventdesign' => 'pages#eventdesign'
+  get 'brand' => 'pages#brand'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
